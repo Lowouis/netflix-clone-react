@@ -1,3 +1,15 @@
+
+.movie__title{
+    color: rgba(255,255,255,0.8);
+    transition: all 100ms;
+}
+.movie__title:hover{
+    color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+.movie__title:hover:after{
+    content: " Explore >";
+}
 .row{
     color:white;
     margin-left: 20px;

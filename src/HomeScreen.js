@@ -12,7 +12,7 @@ function HomeScreen(){
         <div className="homescreen">
             <Nav />
             <Banner />
-            <Row title='NETFLIX_ORIGINALS' fetchUrl={requests.fetchNetflixOriginal} isLargeRow="true"/>
+            <Row title='NETFLIX ORIGINALS' fetchUrl={requests.fetchNetflixOriginal} isLargeRow="true"/>
             <Row title='Trending Now' fetchUrl={requests.fetchTopRated}/>
             <Row title='Action Movies' fetchUrl={requests.fetchActionMovies}/>
             <Row title='Action Comedy Movies' fetchUrl={requests.fetchComedyMovies}/>
